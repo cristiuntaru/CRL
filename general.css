@@ -1,0 +1,63 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+
+    /*   Colors  */
+
+    --black: #2e323f;
+    --darkblue: #3b4050;
+    --lightblue: #6f737f;
+    --white: #ffffff;
+    --bej: #a59678;
+
+    /*  Font-families  */
+
+    --oswald: Oswald, Arial, sans-serif;
+    --monserrat: Monserrat, Arial, sans-serif;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0px;
+    padding-top: 85px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+header, footer, nav {
+    padding: 24px;
+}
+
+
+@media (min-width: 700px) {
+    header, footer, nav {
+        padding: 24px 60px;
+    }
+}
+
+@media (min-width: 1000px) {
+    header, footer, nav {
+        padding: 24px 80px;
+    }
+}
+
+@media (min-width: 1400px) {
+    header, footer, nav {
+        padding: 24px 120px;
+    }
+}
